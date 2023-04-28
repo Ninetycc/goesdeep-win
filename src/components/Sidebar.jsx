@@ -169,7 +169,7 @@ const Sidebar = ({ open = false, setOpen }) => {
                             </li>
                           </a>
                           <a href="/gods">
-                            <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               GODS
                             </li>
                           </a>
