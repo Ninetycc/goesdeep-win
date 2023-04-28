@@ -4,7 +4,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 ---
 
-<Layout title="HOME | GOES DEEP.">
+<Layout title="HOME | GOES DEEP">
   <Header client:only="react" />
   <main class="container">
     <!-- Jumbotron -->
@@ -16,8 +16,14 @@ import Footer from "../components/Footer";
         class="w-full h-full object-cover absolute mix-blend-overlay"
       />
       <div class="p-24">
-        <h1 class="text-white text-6xl font-bold text-center">HOME</h1>
-        <h2 class="text-slate-100 text-3xl mt-5 text-center">ITS GOES DEEP</h2>
+        <h1
+          class="text-white sm:text-xl md:text-4xl font-bold text-center text-transform: uppercase"
+        >
+          HOME
+        </h1>
+        <h2 class="text-slate-100 sm:text-xl md:text-3xl mt-5 text-center">
+          ITS GOES DEEP
+        </h2>
       </div>
     </div>
     <!-- Jumbotron -->
