@@ -1,0 +1,44 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header";
+---
+
+<Layout title="Frontend Mentor | Intro section with dropdown navigation.">
+  <Header client:only="react" />
+  <main class="container mx-auto">
+    <!-- Jumbotron -->
+    <div
+      class="bg-gradient-to-tl from-purple-900 to-green-700 h-96 w-full relative"
+    >
+      <img
+        src="images/Med-Bed001.jpg"
+        class="w-full h-full object-cover absolute mix-blend-overlay"
+      />
+      <div class="p-24">
+        <h1 class="text-white text-6xl font-bold text-center">CANCER</h1>
+        <h2 class="text-slate-100 text-3xl mt-5 text-center">
+          IS CANCER CAUSED BY PARASITES ?
+        </h2>
+      </div>
+    </div>
+    <!-- Jumbotron -->
+    <!-- Jumbotron -->
+    <div
+      class="bg-gradient-to-tl from-purple-900 to-green-700 h-96 w-full relative"
+    >
+      <img
+        src="images/Med-Bed001.jpg"
+        class="w-full h-full object-cover absolute mix-blend-overlay"
+      />
+      <div class="p-24">
+        <h1 class="text-white text-6xl font-bold text-center">
+          Background header image
+        </h1>
+        <h2 class="text-slate-100 text-3xl mt-5 text-center">
+          Some really great stuff goes here.
+        </h2>
+      </div>
+    </div>
+    <!-- Jumbotron -->
+  </main>
+</Layout>

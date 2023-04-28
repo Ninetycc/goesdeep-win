@@ -1,0 +1,271 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header";
+---
+
+<Layout title="About Page | Intro section with dropdown navigation.">
+  <Header client:only="react" />
+  <main class="container">
+    <!-- Jumbotron -->
+    <div
+      class="bg-gradient-to-tr from-purple-900 to-green-700 h-96 w-full relative"
+    >
+      <img
+        src="images/Med-Bed001.jpg"
+        class="w-full h-full object-cover absolute mix-blend-overlay"
+      />
+      <div class="p-24">
+        <h1 class="text-white text-6xl font-bold text-center">GOES DEEP</h1>
+        <h2 class="text-slate-100 text-3xl mt-5 text-center">ITS GOES DEEP</h2>
+      </div>
+    </div>
+    <!-- Jumbotron -->
+  </main>
+
+  <!--Card 1 to 3 -->
+  <div
+    class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-3 gap-5"
+  >
+    <!--Card 1-->
+    <div class="w-full lg:max-w-full lg:flex">
+      <div
+        class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
+        style="background-image: url('/mountain.jpg')"
+        title="Mountain"
+      >
+      </div>
+      <div
+        class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal"
+      >
+        <div class="mb-8">
+          <div class="text-gray-900 font-bold text-xl mb-2">
+            Best Mountain Trails 2020
+          </div>
+          <p class="text-gray-700 text-base">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Voluptatibus quia, Nonea! Maiores et perferendis eaque,
+            exercitationem praesentium nihil 111.
+          </p>
+        </div>
+        <div class="flex items-center">
+          <div
+            class="embed-responsive embed-responsive-4by3 relative w-full overflow-hidden"
+            style="padding-top: 75%"
+          >
+            <iframe
+              class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full"
+              src="https://www.youtube.com/embed/vlDzYIIOYmM?enablejsapi=1&origin=https%3A%2F%2Fmdbootstrap.com"
+              allowfullscreen=""
+              data-gtm-yt-inspected-2340190_699="true"
+              id="240632615"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Card 2-->
+    <div class="w-full lg:max-w-full lg:flex">
+      <div
+        class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
+        style="background-image: url('/river.jpg')"
+        title="River"
+      >
+      </div>
+      <div
+        class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal"
+      >
+        <div class="mb-8">
+          <div class="text-gray-900 font-bold text-xl mb-2">
+            15 Rivers In Norway
+          </div>
+          <p class="text-gray-700 text-base">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Voluptatibus quia, Nonea! Maiores et perferendis eaque,
+            exercitationem praesentium nihil 222.
+          </p>
+        </div>
+        <div class="flex items-center">
+          <div
+            class="embed-responsive embed-responsive-4by3 relative w-full overflow-hidden"
+            style="padding-top: 75%"
+          >
+            <iframe
+              class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full"
+              src="https://www.youtube.com/embed/vlDzYIIOYmM?enablejsapi=1&origin=https%3A%2F%2Fmdbootstrap.com"
+              allowfullscreen=""
+              data-gtm-yt-inspected-2340190_699="true"
+              id="240632615"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Card 3-->
+    <div class="w-full lg:max-w-full lg:flex">
+      <div
+        class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
+        style="background-image: url('/forest.jpg')"
+        title="Forest"
+      >
+      </div>
+      <div
+        class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal"
+      >
+        <div class="mb-8">
+          <div class="text-gray-900 font-bold text-xl mb-2">
+            5 National Forests across the U.S.
+          </div>
+          <p class="text-gray-700 text-base">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Voluptatibus quia, Nonea! Maiores et perferendis eaque,
+            exercitationem praesentium nihil 333.
+          </p>
+        </div>
+        <div class="flex items-center">
+          <div
+            class="embed-responsive embed-responsive-4by3 relative w-full overflow-hidden"
+            style="padding-top: 75%"
+          >
+            <iframe
+              class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full"
+              src="https://www.youtube.com/embed/vlDzYIIOYmM?enablejsapi=1&origin=https%3A%2F%2Fmdbootstrap.com"
+              allowfullscreen=""
+              data-gtm-yt-inspected-2340190_699="true"
+              id="240632615"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Card 1 to 3 -->
+
+  <!-- Full-width fluid until the `md` breakpoint, then lock to container -->
+  <div class="md:container md:mx-auto">
+    <!-- ... -->
+
+    <div class="p-10">
+      <!--Card 1-->
+      <div class="w-full lg:max-w-full lg:flex">
+        <div
+          class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
+          style="background-image: url('/mountain.jpg')"
+          title="Mountain"
+        >
+        </div>
+        <div
+          class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal"
+        >
+          <div class="mb-8">
+            <div class="text-gray-900 font-bold text-xl mb-2">
+              Best Mountain Trails 2020-001
+            </div>
+            <p class="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptatibus quia, Nonea! Maiores et perferendis eaque,
+              exercitationem praesentium nihil.
+            </p>
+          </div>
+          <div class="flex items-center">
+            <div
+              class="embed-responsive embed-responsive-21by9 relative w-full overflow-hidden"
+              style="padding-top: 42.857143%"
+            >
+              <iframe
+                class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full"
+                src="https://www.youtube.com/embed/vlDzYIIOYmM?enablejsapi=1&origin=https%3A%2F%2Fmdbootstrap.com"
+                allowfullscreen=""
+                data-gtm-yt-inspected-2340190_699="true"
+                id="240632615"></iframe>
+            </div>
+          </div>
+          <div class="text-gray-900 font-bold text-xl mb-2">
+            Best Mountain Trails 2020-001
+          </div>
+          <p class="text-gray-700 text-base">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Voluptatibus quia, Nonea! Maiores et perferendis eaque,
+            exercitationem praesentium nihil AAAA.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="p-10">
+      <!--Card 1-->
+      <div class="w-full lg:max-w-full lg:flex">
+        <div
+          class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
+          style="background-image: url('/mountain.jpg')"
+          title="Mountain"
+        >
+        </div>
+        <div
+          class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal"
+        >
+          <div class="mb-8">
+            <div class="text-gray-900 font-bold text-xl mb-2">
+              Best Mountain Trails 2020-002
+            </div>
+            <p class="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptatibus quia, Nonea! Maiores et perferendis eaque,
+              exercitationem praesentium nihil.
+            </p>
+          </div>
+          <div class="flex items-center">
+            <div
+              class="embed-responsive embed-responsive-21by9 relative w-full overflow-hidden"
+              style="padding-top: 42.857143%"
+            >
+              <iframe
+                class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full"
+                src="https://www.youtube.com/embed/vlDzYIIOYmM?enablejsapi=1&origin=https%3A%2F%2Fmdbootstrap.com"
+                allowfullscreen=""
+                data-gtm-yt-inspected-2340190_699="true"
+                id="240632615"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="p-10">
+      <!--Card 1-->
+      <div class="w-full lg:max-w-full lg:flex">
+        <div
+          class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
+          style="background-image: url('/mountain.jpg')"
+          title="Mountain"
+        >
+        </div>
+        <div
+          class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal"
+        >
+          <div class="mb-8">
+            <div class="text-gray-900 font-bold text-xl mb-2">
+              Best Mountain Trails 2020-003
+            </div>
+            <p class="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptatibus quia, Nonea! Maiores et perferendis eaque,
+              exercitationem praesentium nihil.
+            </p>
+          </div>
+          <div class="flex items-center">
+            <div
+              class="embed-responsive embed-responsive-21by9 relative w-full overflow-hidden"
+              style="padding-top: 42.857143%"
+            >
+              <iframe
+                class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full"
+                src="https://www.youtube.com/embed/vlDzYIIOYmM?enablejsapi=1&origin=https%3A%2F%2Fmdbootstrap.com"
+                allowfullscreen=""
+                data-gtm-yt-inspected-2340190_699="true"
+                id="240632615"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Full-width fluid until the `md` breakpoint, then lock to container -->
+</Layout>
