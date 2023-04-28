@@ -14,7 +14,6 @@ const Footer = () => {
               GOESDEEP.win
             </span>
           </a>
-          &#160;&#160;&#160;
           <a href="./site-map">
             <span className="body-font font-poppins text-2xl cursor-pointer hover:text-white hover:bg-lime-900">
               INDEX
