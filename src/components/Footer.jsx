@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className="container">
       <div className="flex py-5 px-3">
-        <div className="flex items-center pt-3 text-3xl">
+        <div className="flex items-center pt-3 text-2xl">
           <a href="./">
             <span className="font-paint cursor-pointer hover:text-white hover:bg-lime-900 hover:text-4xl">
               GOESDEEP.win
@@ -21,7 +21,7 @@ const Footer = () => {
 
         <div className="flex items-center text-xl">
           <a href="./site-map">
-            <span className="body-font font-poppins text-2xl cursor-pointer hover:text-white hover:bg-lime-900">
+            <span className="body-font font-poppins text-xl cursor-pointer hover:text-white hover:bg-lime-900">
               INDEX
             </span>
           </a>
@@ -32,7 +32,7 @@ const Footer = () => {
             aria-controls="sidebar"
             aria-label="Open Menu"
           >
-            <span className="body-font font-poppins text-2xl cursor-pointer hover:text-white hover:bg-lime-900">
+            <span className="body-font font-poppins text-xl cursor-pointer hover:text-white hover:bg-lime-900">
               MENU
             </span>
           </button>
