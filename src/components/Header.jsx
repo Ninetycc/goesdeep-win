@@ -14,17 +14,18 @@ const Header = () => {
               GOESDEEP.win
             </span>
           </a>
-          <a href="./site-map">
-            <span className="body-font font-poppins text-2xl cursor-pointer hover:text-white hover:bg-lime-900">
-              INDEX
-            </span>
-          </a>
         </div>
         <div className="flex-grow flex items-center z-20">
           <NavMenu />
         </div>
 
         <div className="flex items-center text-xl">
+          <a href="./site-map">
+            <span className="body-font font-poppins text-2xl cursor-pointer hover:text-white hover:bg-lime-900">
+              INDEX
+            </span>
+          </a>
+          &nbsp;
           <button
             onClick={() => setOpen(true)}
             aria-expanded={open}
@@ -35,7 +36,6 @@ const Header = () => {
               MENU
             </span>
           </button>
-
           <Sidebar open={open} setOpen={setOpen} />
         </div>
       </div>
