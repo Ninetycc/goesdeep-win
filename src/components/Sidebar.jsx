@@ -97,9 +97,11 @@ const Sidebar = ({ open = false, setOpen }) => {
                               Home
                             </li>
                           </a>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            1 History
-                          </li>
+                          <a href="/cds-mms">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              CDS MMS
+                            </li>
+                          </a>
                           <a href="/med-bed">
                             <li className="cursor-pointer hover:text-white hover:bg-lime-900">
                               Med-Bed
@@ -189,9 +191,11 @@ const Sidebar = ({ open = false, setOpen }) => {
                   )}
                 </Disclosure>
               </li>
-              <li className="mr-4 cursor-pointer hover:text-white hover:bg-lime-900">
-                INDEX
-              </li>
+              <a href="/site-map">
+                <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                  INDEX
+                </li>
+              </a>
               <li>----</li>
             </ul>
 
