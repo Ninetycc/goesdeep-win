@@ -178,6 +178,11 @@ const Sidebar = ({ open = false, setOpen }) => {
                               Bluewater
                             </li>
                           </a>
+                          <a href="/pleiadians">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              Pleiadians
+                            </li>
+                          </a>
                         </ul>
                       </Disclosure.Panel>
                     </>
