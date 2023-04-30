@@ -66,6 +66,12 @@ const Sidebar = ({ open = false, setOpen }) => {
                               BITTER SWEET SYMPHONY
                             </li>
                           </a>
+                          <a href="./enya">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              Enya - Aniron (Extended) HD
+                            </li>
+                          </a>
+
                           <a href="./gopro">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               GoPro
@@ -76,10 +82,14 @@ const Sidebar = ({ open = false, setOpen }) => {
                               If I Were A Carpenter
                             </li>
                           </a>
-
                           <a href="./oasis">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               STAND BY ME - OASIS
+                            </li>
+                          </a>
+                          <a href="./world8k">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              THE BEAUTY OF THE WORLD in 8K ULTRA HD
                             </li>
                           </a>
                         </ul>
@@ -193,6 +203,13 @@ const Sidebar = ({ open = false, setOpen }) => {
                               Bluewater
                             </li>
                           </a>
+
+                          <a href="/braden">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              Gregg Braden: NEW EVIDENCE! The Shocking TRUTH
+                              About How They Built The Pyramids!!
+                            </li>
+                          </a>
                           <a href="/pleiadians">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               Paul Wallis
@@ -201,6 +218,11 @@ const Sidebar = ({ open = false, setOpen }) => {
                           <a href="/pleiadians">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               Pleiadians
+                            </li>
+                          </a>
+                          <a href="/supersoldiertalk">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              Super Soldier Talk
                             </li>
                           </a>
                         </ul>

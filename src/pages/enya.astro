@@ -4,12 +4,13 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 ---
 
-<Layout title="STAND BY ME - OASIS.">
+<Layout title="Enya.">
   <Header client:only="react" />
+
   <main class="container">
     <!-- Jumbotron -->
     <div
-      class="bg-gradient-to-tl from-purple-900 to-green-700 h-96 w-full relative"
+      class="bg-gradient-to-tr from-purple-900 to-green-700 h-96 w-full relative"
     >
       <img
         src="images/Med-Bed001.jpg"
@@ -19,21 +20,22 @@ import Footer from "../components/Footer";
         <h1
           class="text-white text-xl lg:text-[4rem] lg:leading-[4rem] font-bold text-center text-transform: uppercase"
         >
-          STAND BY ME - OASIS
+          Enya
         </h1>
-        <h2 class="text-slate-100 text-xl mt-5 text-center">
-          STAND BY ME - OASIS (VÍDEO 4K OFICIAL) (4K UHD)
+        <h2 class="text-slate-100 sm:text-2xl md:text-3xl mt-5 text-center">
+          Enya - Aniron (Extended) HD
         </h2>
       </div>
     </div>
     <!-- Jumbotron -->
 
-    <!-- Card title 2 -->
+    <!-- Card title 4A -->
     <div
-      class="block rounded-lg bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700"
+      class="container mx-auto px-4 max-w-2xl m-4 bg-white text-gray-800 rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal"
     >
+      ....
       <div
-        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
+        class="content-center overflow-hidden bg-cover bg-no-repeat"
         data-te-ripple-init
         data-te-ripple-color="light"
       >
@@ -42,8 +44,8 @@ import Footer from "../components/Footer";
           style="padding-top: 56.25%"
         >
           <iframe
-            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full"
-            src="https://www.youtube.com/embed/J7sPUmJgYEU"
+            class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl"
+            src="https://www.youtube.com/embed/iMyo8I8AKmY"
             allowfullscreen=""
             data-gtm-yt-inspected-2340190_699="true"
             id="240632615"></iframe>
@@ -53,25 +55,21 @@ import Footer from "../components/Footer";
         <h5
           class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
         >
-          <a href="./videos01" rel="noopener" target="_blank"
+          <a
+            href="https://www.youtube.com/watch?v=iMyo8I8AKmY"
+            rel="noopener"
+            target="_blank"
             ><span
-              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
-              >GO BACK</span
+              class="text-white bg-red-700 text-xl font-bold hover:text-2xl hover:bg-green-900"
+              >Enya - Aniron (Extended) HD</span
             >
           </a>
         </h5>
-        <a
-          href="https://www.youtube.com/watch?v=J7sPUmJgYEU"
-          rel="noopener"
-          target="_blank"
-          ><span
-            class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
-            >STAND BY ME - OASIS (VÍDEO 4K OFICIAL) (4K UHD)</span
-          >
-        </a>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">...</p>
       </div>
     </div>
-    <!-- Card title 2 -->
+    <!-- Card title 4A -->
+
+    <Footer client:only="react" />
   </main>
 </Layout>
-<Footer client:only="react" />
