@@ -61,15 +61,25 @@ const Sidebar = ({ open = false, setOpen }) => {
                               Apricot Seeds
                             </li>
                           </a>
-
-                          <a href="/verve">
+                          <a href="./verve">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               BITTER SWEET SYMPHONY
                             </li>
                           </a>
-                          <a href="/gopro">
+                          <a href="./gopro">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               GoPro
+                            </li>
+                          </a>
+                          <a href="./carpenter">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              If I Were A Carpenter
+                            </li>
+                          </a>
+
+                          <a href="./oasis">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              STAND BY ME - OASIS
                             </li>
                           </a>
                         </ul>
@@ -94,11 +104,6 @@ const Sidebar = ({ open = false, setOpen }) => {
                       </Disclosure.Button>
                       <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
                         <ul className="flex flex-col space-y-3">
-                          <a href="/">
-                            <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                              Home
-                            </li>
-                          </a>
                           <a href="/cds-mms">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               CDS MMS
@@ -179,7 +184,7 @@ const Sidebar = ({ open = false, setOpen }) => {
                           </a>
                           <a href="/global">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
-                              GOES DEEP
+                              Global Marshall Law
                             </li>
                           </a>
 
