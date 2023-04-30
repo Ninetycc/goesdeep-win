@@ -167,19 +167,30 @@ const Sidebar = ({ open = false, setOpen }) => {
                       </Disclosure.Button>
                       <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
                         <ul className="flex flex-col space-y-3">
-                          <a href="/goesdeep">
-                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
-                              GOES DEEP
-                            </li>
-                          </a>
                           <a href="/gods">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               GODS
                             </li>
                           </a>
+                          <a href="/goesdeep">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              GOES DEEP
+                            </li>
+                          </a>
+                          <a href="/global">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              GOES DEEP
+                            </li>
+                          </a>
+
                           <a href="/bluewater">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               Bluewater
+                            </li>
+                          </a>
+                          <a href="/pleiadians">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              Paul Wallis
                             </li>
                           </a>
                           <a href="/pleiadians">
