@@ -62,14 +62,16 @@ const Sidebar = ({ open = false, setOpen }) => {
                             </li>
                           </a>
 
-                          <a href="/careers">
-                            <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                              Careers
+                          <a href="/verve">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              BITTER SWEET SYMPHONY
                             </li>
                           </a>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            5 Our Team
-                          </li>
+                          <a href="/gopro">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              GoPro
+                            </li>
+                          </a>
                         </ul>
                       </Disclosure.Panel>
                     </>
@@ -103,7 +105,7 @@ const Sidebar = ({ open = false, setOpen }) => {
                             </li>
                           </a>
                           <a href="/med-bed">
-                            <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               Med-Bed
                             </li>
                           </a>
