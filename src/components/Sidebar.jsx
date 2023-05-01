@@ -51,9 +51,9 @@ const Sidebar = ({ open = false, setOpen }) => {
                               Home
                             </li>
                           </a>
-                          <a href="/about">
-                            <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                              About
+                          <a href="/cancer">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              Cancer
                             </li>
                           </a>
                           <a href="/Apricot-Seeds">
@@ -223,6 +223,11 @@ const Sidebar = ({ open = false, setOpen }) => {
                           <a href="/supersoldiertalk">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               Super Soldier Talk
+                            </li>
+                          </a>
+                          <a href="/stargate">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              Star Gate
                             </li>
                           </a>
                         </ul>
