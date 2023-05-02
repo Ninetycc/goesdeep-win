@@ -61,6 +61,12 @@ const Sidebar = ({ open = false, setOpen }) => {
                               Apricot Seeds
                             </li>
                           </a>
+                          <a href="./australia4k">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              Australia Documentary 4K
+                            </li>
+                          </a>
+
                           <a href="./verve">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               BITTER SWEET SYMPHONY
@@ -71,7 +77,6 @@ const Sidebar = ({ open = false, setOpen }) => {
                               Enya - Aniron (Extended) HD
                             </li>
                           </a>
-
                           <a href="./gopro">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               GoPro
@@ -85,6 +90,11 @@ const Sidebar = ({ open = false, setOpen }) => {
                           <a href="./oasis">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               STAND BY ME - OASIS
+                            </li>
+                          </a>
+                          <a href="./red-centre">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              The Red Centre
                             </li>
                           </a>
                           <a href="./world8k">
@@ -117,6 +127,12 @@ const Sidebar = ({ open = false, setOpen }) => {
                           <a href="/cds-mms">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               CDS MMS
+                            </li>
+                          </a>
+                          <a href="/thyme">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              The Healing SPICE...Clears Up Phlegm & Mucus in
+                              Sinus
                             </li>
                           </a>
                           <a href="/med-bed">
