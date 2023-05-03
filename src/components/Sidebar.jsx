@@ -136,12 +136,6 @@ const Sidebar = ({ open = false, setOpen }) => {
                               Med-Bed
                             </li>
                           </a>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            3 Blog
-                          </li>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            4 History
-                          </li>
                         </ul>
                       </Disclosure.Panel>
                     </>
@@ -209,13 +203,11 @@ const Sidebar = ({ open = false, setOpen }) => {
                               Global Marshall Law
                             </li>
                           </a>
-
                           <a href="/bluewater">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               Bluewater
                             </li>
                           </a>
-
                           <a href="/braden">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               Gregg Braden: NEW EVIDENCE! The Shocking TRUTH
@@ -240,6 +232,11 @@ const Sidebar = ({ open = false, setOpen }) => {
                           <a href="/stargate">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               Star Gate
+                            </li>
+                          </a>
+                          <a href="/invisible-war">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              The Invisible War
                             </li>
                           </a>
                         </ul>
