@@ -214,6 +214,11 @@ const Sidebar = ({ open = false, setOpen }) => {
                               About How They Built The Pyramids!!
                             </li>
                           </a>
+                          <a href="/justinian-deception">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              Justinian Deception
+                            </li>
+                          </a>
                           <a href="/pleiadians">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               Paul Wallis
