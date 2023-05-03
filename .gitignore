@@ -11,6 +11,7 @@ node_modules/
 src/components/Header-old.jsx
 src/components/Sidebar-old.jsx
 src/pages/index00.astro
+src/pages/oasis.astro
 
 # logs
 npm-debug.log*

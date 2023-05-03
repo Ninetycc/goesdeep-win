@@ -87,11 +87,7 @@ const Sidebar = ({ open = false, setOpen }) => {
                               If I Were A Carpenter
                             </li>
                           </a>
-                          <a href="./oasis">
-                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
-                              STAND BY ME - OASIS
-                            </li>
-                          </a>
+
                           <a href="./red-centre">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               The Red Centre
