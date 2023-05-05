@@ -225,28 +225,33 @@ const Sidebar = ({ open = false, setOpen }) => {
                             </li>
                           </a>
                           <a href="/pleiadians">
-                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
                               Paul Wallis
                             </li>
                           </a>
                           <a href="/pleiadians">
-                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
                               Pleiadians
                             </li>
                           </a>
                           <a href="/supersoldiertalk">
-                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
                               Super Soldier Talk
                             </li>
                           </a>
                           <a href="/stargate">
-                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
                               Star Gate
                             </li>
                           </a>
                           <a href="/invisible-war">
-                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
                               The Invisible War
+                            </li>
+                          </a>
+                          <a href="/flat-earth">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
+                              Flat Earth
                             </li>
                           </a>
                         </ul>
