@@ -218,6 +218,12 @@ const Sidebar = ({ open = false, setOpen }) => {
                               Bluewater
                             </li>
                           </a>
+                          <a href="/mcallister">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              McAllister TV
+                            </li>
+                          </a>
+
                           <a href="/braden">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               Gregg Braden: NEW EVIDENCE! The Shocking TRUTH
