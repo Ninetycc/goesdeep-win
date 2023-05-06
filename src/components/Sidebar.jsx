@@ -203,6 +203,11 @@ const Sidebar = ({ open = false, setOpen }) => {
                               GOES DEEP
                             </li>
                           </a>
+                          <a href="/australia">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              Australia
+                            </li>
+                          </a>
                           <a href="/global">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               Global Marshall Law
