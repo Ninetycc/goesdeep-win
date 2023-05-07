@@ -245,6 +245,12 @@ const Sidebar = ({ open = false, setOpen }) => {
                               HYPHEN-GLITCH
                             </li>
                           </a>
+
+                          <a href="/tom-cruise">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
+                              We Interviewed Deepfake Tom Cruise
+                            </li>
+                          </a>
                           <a href="/pleiadians">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
                               Paul Wallis
