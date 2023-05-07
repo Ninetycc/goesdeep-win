@@ -235,6 +235,16 @@ const Sidebar = ({ open = false, setOpen }) => {
                               Justinian Deception
                             </li>
                           </a>
+                          <a href="/hyphen-glitch">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              The Chicago Manual of Style, 17th ed. (2017)
+                            </li>
+                          </a>
+                          <a href="/hyphen-glitch">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              HYPHEN-GLITCH
+                            </li>
+                          </a>
                           <a href="/pleiadians">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
                               Paul Wallis
