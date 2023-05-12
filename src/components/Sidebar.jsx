@@ -168,9 +168,11 @@ const Sidebar = ({ open = false, setOpen }) => {
                               NO VIRUS
                             </li>
                           </a>
-                          <li className="cursor-pointer hover:text-white hover:bg-lime-900">
-                            1 History
-                          </li>
+                          <a href="/bioweapon">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              Bioweapon
+                            </li>
+                          </a>
                         </ul>
                       </Disclosure.Panel>
                     </>
