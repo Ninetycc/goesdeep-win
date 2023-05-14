@@ -263,6 +263,11 @@ const Sidebar = ({ open = false, setOpen }) => {
                               Pleiadians
                             </li>
                           </a>
+                          <a href="./billwood">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
+                              PROJECT LOOKING GLASS
+                            </li>
+                          </a>
                           <a href="/supersoldiertalk">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
                               Super Soldier Talk
