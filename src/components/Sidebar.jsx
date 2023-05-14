@@ -125,6 +125,11 @@ const Sidebar = ({ open = false, setOpen }) => {
                               CDS MMS
                             </li>
                           </a>
+                          <a href="./dmso">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              DMSO
+                            </li>
+                          </a>
                           <a href="/hydrogen-peroxide">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               HYDROGEN-PEROXIDE
