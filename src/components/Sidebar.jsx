@@ -130,6 +130,12 @@ const Sidebar = ({ open = false, setOpen }) => {
                               DMSO
                             </li>
                           </a>
+                          <a href="./drberg">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              Dr. Eric Berg DC
+                            </li>
+                          </a>
+
                           <a href="/hydrogen-peroxide">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               HYDROGEN-PEROXIDE
@@ -142,7 +148,7 @@ const Sidebar = ({ open = false, setOpen }) => {
                             </li>
                           </a>
                           <a href="/med-bed">
-                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                            <li className="cursor-pointer hover:text-white hover:bg-lime-900">
                               Med-Bed
                             </li>
                           </a>
