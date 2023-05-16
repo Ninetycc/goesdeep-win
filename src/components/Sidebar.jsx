@@ -254,6 +254,12 @@ const Sidebar = ({ open = false, setOpen }) => {
                               Justinian Deception
                             </li>
                           </a>
+
+                          <a href="./jordanmaxwell">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
+                              Jordan Maxwell
+                            </li>
+                          </a>
                           <a href="/hyphen-glitch">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               The Chicago Manual of Style, 17th ed. (2017)
