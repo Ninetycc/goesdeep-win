@@ -216,6 +216,12 @@ const Sidebar = ({ open = false, setOpen }) => {
                               GOES DEEP
                             </li>
                           </a>
+                          <a href="./alienwars">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              Alien.Wars
+                            </li>
+                          </a>
+
                           <a href="/australia">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               Australia
