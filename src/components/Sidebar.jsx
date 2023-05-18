@@ -291,6 +291,12 @@ const Sidebar = ({ open = false, setOpen }) => {
                               PROJECT LOOKING GLASS
                             </li>
                           </a>
+                          <a href="./morton">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
+                              DR. SEAN DAVID MORTON
+                            </li>
+                          </a>
+
                           <a href="/supersoldiertalk">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
                               Super Soldier Talk
