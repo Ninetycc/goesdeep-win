@@ -265,6 +265,12 @@ const Sidebar = ({ open = false, setOpen }) => {
                               Jordan Maxwell
                             </li>
                           </a>
+                          <a href="./tompkins">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
+                              William Tompkins
+                            </li>
+                          </a>
+
                           <a href="/hyphen-glitch">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               The Chicago Manual of Style, 17th ed. (2017)
