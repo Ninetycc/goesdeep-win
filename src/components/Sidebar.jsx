@@ -270,6 +270,11 @@ const Sidebar = ({ open = false, setOpen }) => {
                               corporation
                             </li>
                           </a>
+                          <a href="./invisible-war#corporation">
+                            <li className="text-black cursor-pointer text-transform: uppercase hover:text-white hover:bg-lime-900">
+                              Randy Cramer
+                            </li>
+                          </a>
 
                           <a href="/justinian-deception">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
