@@ -221,6 +221,12 @@ const Sidebar = ({ open = false, setOpen }) => {
                               Alien.Wars
                             </li>
                           </a>
+                          <a href="./australia#shifter">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              Amy Sever: Face-To-Face With A 'Shape-Shifter'
+                              March 30, 2023
+                            </li>
+                          </a>
 
                           <a href="/australia">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
@@ -254,6 +260,12 @@ const Sidebar = ({ open = false, setOpen }) => {
                               About How They Built The Pyramids!!
                             </li>
                           </a>
+                          <a href="./invisible-war#corporation">
+                            <li className="text-black cursor-pointer text-transform: uppercase hover:text-white hover:bg-lime-900">
+                              corporation
+                            </li>
+                          </a>
+
                           <a href="/justinian-deception">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               Justinian Deception
