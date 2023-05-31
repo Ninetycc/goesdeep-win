@@ -309,12 +309,12 @@ const Sidebar = ({ open = false, setOpen }) => {
                               We Interviewed Deepfake Tom Cruise
                             </li>
                           </a>
-                          <a href="/pleiadians">
+                          <a href="./bible">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
                               Paul Wallis
                             </li>
                           </a>
-                          <a href="/pleiadians">
+                          <a href="./bible">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
                               Pleiadians
                             </li>
