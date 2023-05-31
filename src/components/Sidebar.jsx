@@ -217,11 +217,6 @@ const Sidebar = ({ open = false, setOpen }) => {
                             </li>
                           </a>
 
-                          <a href="./bible">
-                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
-                              bible
-                            </li>
-                          </a>
                           <a href="/goesdeep">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               GOES DEEP
