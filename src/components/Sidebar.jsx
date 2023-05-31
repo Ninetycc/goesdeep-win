@@ -206,9 +206,20 @@ const Sidebar = ({ open = false, setOpen }) => {
                       </Disclosure.Button>
                       <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
                         <ul className="flex flex-col space-y-3">
-                          <a href="/gods">
-                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                          <a href="./bible">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
+                              bible
+                            </li>
+                          </a>
+                          <a href="./bible">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
                               GODS
+                            </li>
+                          </a>
+
+                          <a href="./bible">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
+                              bible
                             </li>
                           </a>
                           <a href="/goesdeep">
