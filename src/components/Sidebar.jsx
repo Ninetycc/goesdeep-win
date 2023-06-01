@@ -216,6 +216,11 @@ const Sidebar = ({ open = false, setOpen }) => {
                               bible
                             </li>
                           </a>
+                          <a href="./invisible-war#bruce">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
+                              Richard Bruce
+                            </li>
+                          </a>
                           <a href="./bible">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
                               GODS
