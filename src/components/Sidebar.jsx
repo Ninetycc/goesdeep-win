@@ -298,6 +298,11 @@ const Sidebar = ({ open = false, setOpen }) => {
                               William Tompkins
                             </li>
                           </a>
+                          <a href="./wilcock">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
+                              David Wilcock
+                            </li>
+                          </a>
 
                           <a href="/hyphen-glitch">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
