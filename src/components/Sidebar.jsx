@@ -221,6 +221,11 @@ const Sidebar = ({ open = false, setOpen }) => {
                               Richard Bruce
                             </li>
                           </a>
+                          <a href="./turner">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
+                              Chris Turner
+                            </li>
+                          </a>
                           <a href="./bible">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
                               GODS
