@@ -284,6 +284,11 @@ const Sidebar = ({ open = false, setOpen }) => {
                               JOHAN FRITZ
                             </li>
                           </a>
+                          <a href="./willie">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              Jim Willie
+                            </li>
+                          </a>
 
                           <a href="/braden">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
