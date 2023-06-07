@@ -253,6 +253,12 @@ const Sidebar = ({ open = false, setOpen }) => {
                               March 30, 2023
                             </li>
                           </a>
+                          <a href="./monsters">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              Monsters INC. The Adrenochrome Fear Factory
+                              Exposed!
+                            </li>
+                          </a>
 
                           <a href="/australia">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
