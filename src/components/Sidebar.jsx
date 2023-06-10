@@ -290,6 +290,12 @@ const Sidebar = ({ open = false, setOpen }) => {
                               JOHAN FRITZ
                             </li>
                           </a>
+                          <a href="./fritz">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              Introduction to the Secret Space Program 101 by
+                              James Rink, Johan Fritz and FESIG
+                            </li>
+                          </a>
                           <a href="./willie">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               Jim Willie
@@ -375,6 +381,11 @@ const Sidebar = ({ open = false, setOpen }) => {
                           <a href="/supersoldiertalk">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
                               Super Soldier Talk
+                            </li>
+                          </a>
+                          <a href="/supersoldiertalk#scam">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
+                              Gila and I discuss an elaborate scam
                             </li>
                           </a>
                           <a href="/stargate">
