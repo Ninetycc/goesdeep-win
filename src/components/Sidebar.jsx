@@ -130,6 +130,11 @@ const Sidebar = ({ open = false, setOpen }) => {
                               DMSO
                             </li>
                           </a>
+                          <a href="./dmso#cancer">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              DMSO and CANCER
+                            </li>
+                          </a>
                           <a href="./drberg">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               Dr. Eric Berg DC
