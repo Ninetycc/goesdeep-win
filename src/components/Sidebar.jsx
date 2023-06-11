@@ -184,6 +184,11 @@ const Sidebar = ({ open = false, setOpen }) => {
                               Bioweapon
                             </li>
                           </a>
+                          <a href="./nuremberg">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              Nuremberg 2.0
+                            </li>
+                          </a>
                         </ul>
                       </Disclosure.Panel>
                     </>
