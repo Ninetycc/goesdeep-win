@@ -141,6 +141,11 @@ const Sidebar = ({ open = false, setOpen }) => {
                               HYDROGEN-PEROXIDE
                             </li>
                           </a>
+                          <a href="./ivermectin">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              Ivermectin
+                            </li>
+                          </a>
                           <a href="/thyme">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               The Healing SPICE...Clears Up Phlegm & Mucus in
