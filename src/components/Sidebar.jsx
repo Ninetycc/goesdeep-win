@@ -246,7 +246,7 @@ const Sidebar = ({ open = false, setOpen }) => {
                               Don't Mention the Reptilians
                             </li>
                           </a>
-                          <a href="./bible">
+                          <a href="./gods">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
                               GODS
                             </li>
@@ -272,6 +272,12 @@ const Sidebar = ({ open = false, setOpen }) => {
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               Monsters INC. The Adrenochrome Fear Factory
                               Exposed!
+                            </li>
+                          </a>
+                          <a href="./montauk">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              The Montauk Project: The Truth is Darker Than You
+                              Can Possibly Imagine
                             </li>
                           </a>
 
