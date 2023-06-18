@@ -306,12 +306,12 @@ const Sidebar = ({ open = false, setOpen }) => {
                               McAllister TV
                             </li>
                           </a>
-                          <a href="./fritz">
+                          <a href="./fritz#johan">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               JOHAN FRITZ
                             </li>
                           </a>
-                          <a href="./fritz">
+                          <a href="./fritz#johan">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               Introduction to the Secret Space Program 101 by
                               James Rink, Johan Fritz and FESIG
@@ -412,6 +412,12 @@ const Sidebar = ({ open = false, setOpen }) => {
                           <a href="/stargate">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
                               Star Gate
+                            </li>
+                          </a>
+                          <a href="./montauk">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              The Montauk Project: The Truth is Darker Than You
+                              Can Possibly Imagine
                             </li>
                           </a>
                           <a href="/invisible-war">
