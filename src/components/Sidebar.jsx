@@ -306,6 +306,11 @@ const Sidebar = ({ open = false, setOpen }) => {
                               McAllister TV
                             </li>
                           </a>
+                          <a href="./pharmakeia">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              Pharmakeia Deception
+                            </li>
+                          </a>
                           <a href="./fritz#johan">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               JOHAN FRITZ
