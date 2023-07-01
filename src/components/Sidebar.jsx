@@ -291,6 +291,12 @@ const Sidebar = ({ open = false, setOpen }) => {
                               Can Possibly Imagine
                             </li>
                           </a>
+                          <a href="./cancer#lee">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              Dr. Lee Merritt ‘Breaking Down Babylonian Word
+                              Magic’ June 19, 2023
+                            </li>
+                          </a>
 
                           <a href="/australia">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
