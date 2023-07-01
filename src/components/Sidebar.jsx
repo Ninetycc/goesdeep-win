@@ -279,6 +279,12 @@ const Sidebar = ({ open = false, setOpen }) => {
                               Exposed!
                             </li>
                           </a>
+                          <a href="./secret">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              Warning! No One Is Allowed to Enter or See These
+                              Secret Locations
+                            </li>
+                          </a>
                           <a href="./montauk">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               The Montauk Project: The Truth is Darker Than You
