@@ -184,8 +184,8 @@ const Sidebar = ({ open = false, setOpen }) => {
                       </Disclosure.Button>
                       <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
                         <ul className="flex flex-col space-y-3">
-                          <a href="/">
-                            <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                          <a href="./no-virus">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               NO VIRUS
                             </li>
                           </a>
