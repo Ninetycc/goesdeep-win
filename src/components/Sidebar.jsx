@@ -194,6 +194,12 @@ const Sidebar = ({ open = false, setOpen }) => {
                               Bioweapon
                             </li>
                           </a>
+                          <a href="./cancer#lee">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              Dr. Lee Merritt ‘Breaking Down Babylonian Word
+                              Magic’ June 19, 2023
+                            </li>
+                          </a>
                           <a href="./pharmakeia">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               Pharmakeia Deception
