@@ -158,7 +158,7 @@ const Sidebar = ({ open = false, setOpen }) => {
                             </li>
                           </a>
                           <a href="/med-bed">
-                            <li className="cursor-pointer hover:text-white hover:bg-lime-900">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               Med-Bed
                             </li>
                           </a>
