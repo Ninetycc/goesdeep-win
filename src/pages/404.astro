@@ -9,12 +9,14 @@ import Footer from "../components/Footer";
   <main class="container">
     <!-- Jumbotron -->
     <div
-      class="bg-gradient-to-tl from-red-900 to-blue-700 h-96 w-full relative"
+      class="bg-gradient-to-tl from-red-900 to-blue-700 h-96 w-full relative rounded-xl"
     >
-      <img
-        src="images/Med-Bed001.jpg"
-        class="w-full h-full object-cover absolute mix-blend-overlay"
-      />
+      <a href="./">
+        <img
+          src="images/Med-Bed001.jpg"
+          class="w-full h-full object-cover absolute mix-blend-overlay rounded-xl"
+        />
+      </a>
       <div class="p-24">
         <h1
           class="text-white text-xl lg:text-[4rem] lg:leading-[4rem] font-bold text-center text-transform: uppercase"
@@ -53,12 +55,18 @@ import Footer from "../components/Footer";
         </div>
       </div>
       <div class="order-first lg:order-last">
-        <img class="lg:hidden mb-9" src="images/Med-Bed001.jpg" alt="Med-Bed" />
-        <img
-          class="hidden lg:block"
-          src="images/Med-Bed001.jpg"
-          alt="Med-Bed"
-        />
+        <a href="./med-bed">
+          <img
+            class="lg:hidden mb-9"
+            src="images/Med-Bed001.jpg"
+            alt="Med-Bed"
+          />
+          <img
+            class="hidden lg:block"
+            src="images/Med-Bed001.jpg"
+            alt="Med-Bed"
+          />
+        </a>
       </div>
     </div>
   </main>
