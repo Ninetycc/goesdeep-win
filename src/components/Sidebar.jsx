@@ -329,7 +329,11 @@ const Sidebar = ({ open = false, setOpen }) => {
                               McAllister TV
                             </li>
                           </a>
-
+                          <a href="./fritz">
+                            <li className="text-green-900 cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
+                              Secret Space Program SSP - Bavarian Illuminati
+                            </li>
+                          </a>
                           <a href="./fritz#johan">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               JOHAN FRITZ
@@ -420,11 +424,6 @@ const Sidebar = ({ open = false, setOpen }) => {
                           <a href="./morton">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
                               DR. SEAN DAVID MORTON
-                            </li>
-                          </a>
-                          <a href="./fritz">
-                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
-                              Secret Space Program SSP - Bavarian Illuminati
                             </li>
                           </a>
 
