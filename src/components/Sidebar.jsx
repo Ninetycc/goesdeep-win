@@ -422,6 +422,11 @@ const Sidebar = ({ open = false, setOpen }) => {
                               DR. SEAN DAVID MORTON
                             </li>
                           </a>
+                          <a href="./fritz">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
+                              Secret Space Program SSP - Bavarian Illuminati
+                            </li>
+                          </a>
 
                           <a href="/supersoldiertalk">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
