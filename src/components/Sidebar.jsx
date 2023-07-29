@@ -324,7 +324,7 @@ const Sidebar = ({ open = false, setOpen }) => {
                               Bogdanoff
                             </li>
                           </a>
-                          <a href="/mcallister">
+                          <a href="./mcallister">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               McAllister TV
                             </li>
