@@ -411,9 +411,14 @@ const Sidebar = ({ open = false, setOpen }) => {
                               Paul Wallis
                             </li>
                           </a>
-                          <a href="./bible">
+                          <a href="./pleiadians">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
                               Pleiadians
+                            </li>
+                          </a>
+                          <a href="./bible">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
+                              Pleiadians in the Bible
                             </li>
                           </a>
                           <a href="./billwood">
