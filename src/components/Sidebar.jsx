@@ -257,6 +257,11 @@ const Sidebar = ({ open = false, setOpen }) => {
                               Don't Mention the Reptilians
                             </li>
                           </a>
+                          <a href="./freemasonry">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
+                              Freemasonry
+                            </li>
+                          </a>
                           <a href="./gods">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
                               GODS
