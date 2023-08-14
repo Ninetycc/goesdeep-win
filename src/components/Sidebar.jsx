@@ -296,6 +296,11 @@ const Sidebar = ({ open = false, setOpen }) => {
                               Secret Locations
                             </li>
                           </a>
+                          <a href="./matrix">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              The Matrix Reloaded - Highway Chase [HD]
+                            </li>
+                          </a>
                           <a href="./montauk">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               The Montauk Project: The Truth is Darker Than You
