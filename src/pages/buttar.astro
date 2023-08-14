@@ -2,6 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Dmsolist from "../components/Dmsolist.astro";
 ---
 
 <Layout title="DR. RASHID A. BUTTAR .">
@@ -10,7 +11,7 @@ import Footer from "../components/Footer";
   <main class="container">
     <!-- Jumbotron -->
     <div
-      class="bg-gradient-to-tr from-purple-900 to-green-700 h-96 w-full relative"
+      class="bg-gradient-to-tr from-indigo-900 to-sky-500 h-96 w-full relative rounded-xl"
     >
       <img
         src="images/Med-Bed001.jpg"
@@ -31,13 +32,17 @@ import Footer from "../components/Footer";
     </div>
     <!-- Jumbotron -->
 
-    <!-- CHRIS SAVAGE -->
+    <Dmsolist />
+
+    <!-- Card title 2 -->
     <div
-      class="container mx-auto px-4 max-w-2xl m-4 bg-white text-gray-800 rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal"
+      class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
     >
-      ....
+      <p class="mb-4 text-base text-green-600">
+        More Than 3 Years BEFORE MSM - Dr Rashid A Buttar
+      </p>
       <div
-        class="relative overflow-hidden bg-cover bg-no-repeat"
+        class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
         data-te-ripple-init
         data-te-ripple-color="light"
       >
@@ -53,27 +58,36 @@ import Footer from "../components/Footer";
             id="240632615"></iframe>
         </div>
       </div>
-      <div class="p-6 text-center">
+      <div class="p-6 top-0 text-center">
         <h5
           class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
         >
-          <a
-            href="https://clikview.com/watch/more-than-3-years-before-msm-dr-rashid-a-buttar_7oPOsabugQayiB3.html"
-            rel="noopener"
-            target="_blank"
+          <a href="./autism#vaccines"
             ><span
-              class="text-red-700 text-xl font-bold bg-blue-400 hover:text-2xl hover:text-green-900 hover:bg-white"
-              >More Than 3 Years BEFORE MSM - Dr Rashid A Buttar</span
+              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
+              >DO VACCINES CAUSE CANCER? | DR BUTTAR'S THOUGHTS ON THE DANGERS
+              OF VACCINES</span
             >
           </a>
         </h5>
+        <a
+          href="https://clikview.com/watch/more-than-3-years-before-msm-dr-rashid-a-buttar_7oPOsabugQayiB3.html"
+          rel="noopener"
+          target="_blank"
+          ><span
+            class="text-sky-500 bg-white text-base hover:text-lg hover:text-green-900"
+            >More Than 3 Years BEFORE MSM - Dr Rashid A Buttar</span
+          >
+        </a>
 
-        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
-          ....
-        </p>
+        <a href="./monsters">
+          <p class="text-left text-yellow-100 hover:text-blue-300">
+            Monsters Inc
+          </p></a
+        >
       </div>
     </div>
-    <!-- CHRIS SAVAGE -->
+    <!-- Card title 2 -->
 
     <!-- Card title 4A -->
     <div
