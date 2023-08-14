@@ -301,6 +301,11 @@ const Sidebar = ({ open = false, setOpen }) => {
                               The Matrix Reloaded - Highway Chase [HD]
                             </li>
                           </a>
+                          <a href="./invisible-war#tenet2">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              TENET Ending scene 4K.
+                            </li>
+                          </a>
                           <a href="./montauk">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               The Montauk Project: The Truth is Darker Than You
