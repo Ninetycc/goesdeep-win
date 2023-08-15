@@ -2,6 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Movies from "../components/Movies.astro";
 ---
 
 <Layout title="We Interviewed Deepfake Tom Cruise.">
@@ -9,7 +10,7 @@ import Footer from "../components/Footer";
   <main class="container">
     <!-- Jumbotron -->
     <div
-      class="bg-gradient-to-tl from-purple-900 to-green-700 h-96 w-full relative"
+      class="bg-gradient-to-tl from-pink-500 to-blue-800 h-96 w-full relative rounded-xl"
     >
       <img
         src="images/Med-Bed001.jpg"
@@ -32,6 +33,10 @@ import Footer from "../components/Footer";
     <div
       class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
     >
+      <Movies />
+      <p class="mb-4 text-base text-blue-900">
+        We Interviewed Deepfake Tom Cruise
+      </p>
       <div
         class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
         data-te-ripple-init
@@ -83,16 +88,6 @@ import Footer from "../components/Footer";
             ><span
               class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
               >CLONES? What Do You See? (JFK Jr. Meme)</span
-            >
-          </a>
-        </h5>
-        <h5
-          class="mb-2 text-xl font-medium leading-tight text-white dark:text-neutral-50"
-        >
-          <a href="./riddick"
-            ><span
-              class="bg-white text-red-700 hover:text-2xl hover:text-green-900"
-              >Riddick</span
             >
           </a>
         </h5>
