@@ -242,16 +242,12 @@ const Sidebar = ({ open = false, setOpen }) => {
                               bible
                             </li>
                           </a>
-                          <a href="./invisible-war#bruce">
+                          <a href="./turner#turner">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
-                              Richard Bruce
+                              Chris Turner talks about Richard Bruce
                             </li>
                           </a>
-                          <a href="./turner">
-                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
-                              Chris Turner
-                            </li>
-                          </a>
+
                           <a href="./turner">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
                               Don't Mention the Reptilians
