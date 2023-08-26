@@ -98,6 +98,15 @@ const Sidebar = ({ open = false, setOpen }) => {
                               THE BEAUTY OF THE WORLD in 8K ULTRA HD
                             </li>
                           </a>
+                          <a
+                            href="https://yandex.com/"
+                            rel="noopener"
+                            target="_blank"
+                          >
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              yandex.com
+                            </li>
+                          </a>
                         </ul>
                       </Disclosure.Panel>
                     </>
