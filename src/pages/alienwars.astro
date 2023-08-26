@@ -2,6 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Rept from "../components/Rept.astro";
 ---
 
 <Layout title="Alien.Wars">
@@ -10,7 +11,7 @@ import Footer from "../components/Footer";
   <main class="container">
     <!-- Jumbotron -->
     <div
-      class="bg-gradient-to-tr from-purple-900 to-green-700 h-96 w-full relative"
+      class="bg-gradient-to-tl from-amber-900 to-pink-600 h-96 w-full relative rounded-xl"
     >
       <img
         src="images/Med-Bed001.jpg"
@@ -67,6 +68,8 @@ import Footer from "../components/Footer";
             >
           </a>
         </h5>
+
+        <Rept />
         <a href="./monsters">
           <p class="text-left text-yellow-100 hover:text-blue-300">
             Monsters Inc
