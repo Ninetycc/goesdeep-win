@@ -10,7 +10,7 @@ const Header = () => {
       <div className="flex py-5 px-3">
         <div className="flex items-center pt-3 text-2xl">
           <a href="https://dmso.cc/">
-            <span className="font-poppins cursor-pointer hover:text-white hover:bg-yellow-700">
+            <span className="font-poppins font-semibold cursor-pointer hover:text-white hover:bg-yellow-700">
               DMSO.cc
             </span>
           </a>
