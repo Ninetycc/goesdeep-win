@@ -66,6 +66,12 @@ const Sidebar = ({ open = false, setOpen }) => {
                               Australia Documentary 4K
                             </li>
                           </a>
+                          <a href="./australia#cindy">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              Why is Albanese refusing to listen to the voice of
+                              the beautiful & proud Cindy Roberts ?
+                            </li>
+                          </a>
 
                           <a href="./verve">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
