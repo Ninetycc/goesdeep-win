@@ -2,6 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import Header from "../components/Dmsocc";
 import Footer from "../components/Footercc";
+import Dmsolist from "../components/Dmsolist.astro";
 import Lista from "../components/Lista.astro";
 ---
 
@@ -13,10 +14,12 @@ import Lista from "../components/Lista.astro";
     <div
       class="bg-gradient-to-tr from-green-700 to-sky-500 h-96 w-full relative rounded-xl"
     >
-      <img
-        src="images/Med-Bed001.jpg"
-        class="w-full h-full object-cover absolute mix-blend-overlay rounded-xl"
-      />
+      <a href="./">
+        <img
+          src="images/Med-Bed001.jpg"
+          class="w-full h-full object-cover absolute mix-blend-overlay rounded-xl"
+        />
+      </a>
       <div class="p-24">
         <h1
           class="text-white text-xl lg:text-[4rem] lg:leading-[4rem] font-bold text-center text-transform: uppercase"
@@ -30,43 +33,7 @@ import Lista from "../components/Lista.astro";
     </div>
     <!-- Jumbotron -->
 
-    <!-- DMSO benefits -->
-    <div
-      class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-[7rem] lg:pt-5 text-center lg:text-left max-w-[1024px] mx-auto"
-    >
-      <div class="flex flex-col lg:flex lg:flex-row items-center relative z-0">
-        <div>
-          <a href="./dmso#dmso">
-            <h1
-              class="text-black text-xl lg:text-[4rem] lg:leading-[4rem] font-bold text-transform: uppercase cursor-pointer hover:text-white hover:bg-lime-900"
-            >
-              DMSO
-            </h1></a
-          >
-
-          <a href="/site-map"
-            ><h1
-              class="text-black text-xl lg:text-[4rem] lg:leading-[4rem] font-bold text-transform: uppercase cursor-pointer hover:text-white hover:bg-lime-900"
-            >
-              INDEX
-            </h1></a
-          >
-        </div>
-      </div>
-      <div
-        class="order-first lg:order-last rounded-xl max-w-xs transition duration-300 ease-in-out hover:scale-110"
-      >
-        <a href="./dmso#dmso">
-          <img class="lg:hidden mb-9" src="images/dmso2.jpg" alt="DMSO" />
-          <img
-            class="hidden lg:block rounded-xl"
-            src="images/dmso2.jpg"
-            alt="DMSO"
-          />
-        </a>
-      </div>
-    </div>
-    <!-- DMSO benefits -->
+    <Dmsolist />
 
     <!-- Card title 4A -->
     <div
