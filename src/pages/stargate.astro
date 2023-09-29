@@ -2,6 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Bluelist from "../components/Bluelist.astro";
 import Movies from "../components/Movies.astro";
 ---
 
@@ -13,7 +14,7 @@ import Movies from "../components/Movies.astro";
   <main class="container">
     <!-- Jumbotron -->
     <div
-      class="bg-gradient-to-tr from-sky-900 to-pink-700 h-96 w-full relative rounded-xl"
+      class="bg-gradient-to-tr from-sky-900 to-green-900 h-96 w-full relative rounded-xl"
     >
       <img
         src="images/Med-Bed001.jpg"
@@ -36,6 +37,7 @@ import Movies from "../components/Movies.astro";
     <div
       class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
     >
+      <Bluelist />
       <h2 id="stargate">
         <p class="mb-4 text-base text-left font-bold text-black">
           STARGATE (1994) | Activating The Portal | MGM
@@ -74,6 +76,7 @@ import Movies from "../components/Movies.astro";
         </h5>
 
         <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">...</p>
+        <Movies />
       </div>
     </div>
     <!-- Government Assassin -->
@@ -82,7 +85,6 @@ import Movies from "../components/Movies.astro";
     <div
       class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
     >
-      <Movies />
       <h2 id="iraq1">
         <p class="mb-4 text-base text-left font-bold text-black">
           SADDAM HUSSEIN HAD AN ANNUNAKI STARGATE, PLUS TECHNOLOGY
