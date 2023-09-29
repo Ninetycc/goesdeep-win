@@ -204,6 +204,11 @@ const Sidebar = ({ open = false, setOpen }) => {
                               NO VIRUS
                             </li>
                           </a>
+                          <a href="./antidote#ardis">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
+                              THE ANTIDOTE
+                            </li>
+                          </a>
                           <a href="/bioweapon">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900">
                               Bioweapon
