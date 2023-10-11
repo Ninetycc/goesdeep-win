@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import Movies from "../components/Movies.astro";
 import Rept from "../components/Rept.astro";
 import Bluelist from "../components/Bluelist.astro";
+import Rickbruce from "../components/Rickbruce.astro";
 ---
 
 <Layout title="Chris Turner ">
@@ -129,43 +130,9 @@ import Bluelist from "../components/Bluelist.astro";
             >
           </a>
         </h5>
-        <h5
-          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
-        >
-          <a href="./turner#legacy"
-            ><span
-              class="text-red-700 font-bold hover:text-2xl hover:text-green-900"
-              >Don't Mention the Reptilians</span
-            >
-          </a>
-        </h5>
-        <h5
-          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
-        >
-          <a href="http://freeourworld.org/" rel="noopener" target="_blank"
-            ><span class="text-green-900 text-xl font-bold hover:text-red-700"
-              >freeourworld.org</span
-            >
-          </a>
-        </h5>
-        <h5
-          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
-        >
-          <a href="./bruce"
-            ><span class="text-green-900 text-xl font-bold hover:text-red-700"
-              >Richard Bruce</span
-            >
-          </a>
-        </h5>
-        <h5
-          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
-        >
-          <a href="./turner#legacy"
-            ><span class="text-orange-500 text-xl font-bold hover:text-red-700"
-              >Alien Reptilian Legacy (Don't Mention the Reptilians) Movie</span
-            >
-          </a>
-        </h5>
+
+        <Rickbruce />
+
         <a href="./monsters">
           <p class="text-left text-yellow-100 hover:text-blue-300">
             Monsters Inc
@@ -227,15 +194,7 @@ import Bluelist from "../components/Bluelist.astro";
           </a>
         </h5>
 
-        <h5
-          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
-        >
-          <a href="./bruce"
-            ><span class="text-green-900 text-xl font-bold hover:text-red-700"
-              >Richard Bruce</span
-            >
-          </a>
-        </h5>
+        <Rickbruce />
 
         <Rept />
         <a href="./monsters">
@@ -251,9 +210,11 @@ import Bluelist from "../components/Bluelist.astro";
     <div
       class="block px-4 bg-white m-4 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] rounded-xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 justify-between leading-normal"
     >
-      <p class="mb-4 text-base text-green-600">
-        Alien Reptilian Legacy (Don't Mention the Reptilians) Movie Trailer
-      </p>
+      <h2 id="legacy">
+        <p class="mb-4 text-base text-green-600">
+          Alien Reptilian Legacy (Don't Mention the Reptilians) Movie Trailer
+        </p>
+      </h2>
       <div
         class="content-center bg-white overflow-hidden bg-cover bg-no-repeat"
         data-te-ripple-init
