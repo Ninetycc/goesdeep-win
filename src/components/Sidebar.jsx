@@ -257,6 +257,11 @@ const Sidebar = ({ open = false, setOpen }) => {
                               arrests
                             </li>
                           </a>
+                          <a href="./news#intel">
+                            <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
+                              INTEL
+                            </li>
+                          </a>
                           <a href="./bible">
                             <li className="text-black cursor-pointer hover:text-white hover:bg-lime-900 text-transform: uppercase">
                               bible
