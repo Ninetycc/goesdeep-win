@@ -6,6 +6,8 @@ import Movies from "../components/Movies.astro";
 import Rept from "../components/Rept.astro";
 import Bluelist from "../components/Bluelist.astro";
 import Rickbruce from "../components/Rickbruce.astro";
+import Bibles from "../components/Bibles.astro";
+import Nagas from "../components/Nagas.astro";
 ---
 
 <Layout title="Chris Turner ">
@@ -398,16 +400,9 @@ import Rickbruce from "../components/Rickbruce.astro";
             >
           </a>
         </h5>
-        <h5
-          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
-        >
-          <a href="./bluewater#races"
-            ><span
-              class="text-red-700 bg-white text-base hover:text-lg hover:text-green-900"
-              >ILLUMINATI RACES
-            </span>
-          </a>
-        </h5>
+
+        <Nagas />
+        <Bibles />
         <a href="./monsters">
           <p class="text-left text-yellow-100 hover:text-blue-300">
             Monsters Inc
