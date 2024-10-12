@@ -1,0 +1,5 @@
+/home/alex/Desktop/goesdeep-win/src/components/Patriotchute.astro
+# Ignore all HTML files:
+**/*.astro
+*.astro
+src/components/Patriotchute.astro
