@@ -10,9 +10,7 @@ const Footer = () => {
       <div className="flex py-5 px-3">
         <div className="flex items-center pt-3 text-2xl">
           <a href="./">
-            <span className="font-paint cursor-pointer hover:text-white hover:bg-lime-900 hover:text-4xl">
-              GOESDEEP.win
-            </span>
+            <span className="font-paint cursor-pointer hover:text-white hover:bg-lime-900 hover:text-4xl">1954.date</span>
           </a>
         </div>
         <div className="flex-grow flex items-center z-20">
